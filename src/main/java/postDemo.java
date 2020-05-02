@@ -24,7 +24,7 @@ import java.util.ArrayList;
 public class postDemo {
     public static void main(String[] args) throws IOException {
         //填写接口地址
-        String url = "https://www.zhihu.com/signin?next=%2F";
+        String url = "https://api.yiye.ai/real_time.html";
         //指定接口请求方式
         HttpPost post = new HttpPost();
         //准备测试数据
